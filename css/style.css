@@ -1,0 +1,55 @@
+body{
+    font-size: 16pt;
+}
+
+header,
+main,
+footer{
+    max-width: auto;
+    margin: 0 auto;
+}
+
+header {
+    background-color: indianred;
+    padding: 1.5rem;
+    border-top-left-radius: 0.35em;
+    border-top-right-radius: 0.35em;
+    border-bottom-left-radius: 0.35em;
+    border-bottom-right-radius: 0.35em;
+}
+
+header img{
+    float: right;
+    width: auto;
+    height: 200px;
+    box-shadow: 0px 0px 20px rgb(24, 23, 23);
+    border-radius: 3%;
+}
+
+h1{
+    font-size: 2.4rem;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    border-bottom:1px solid rgb(110, 109, 109);
+}
+
+footer{
+    background-color:indianred;
+    padding: 1.5rem;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 0.35em;
+    border-top-right-radius: 0.35em;
+    border-bottom-left-radius: 0.35em;
+    border-bottom-right-radius: 0.35em;
+}
+
+.lastupdated{
+    color: yellow;
+}
+
+
+
