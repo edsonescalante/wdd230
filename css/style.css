@@ -5,12 +5,12 @@ body {
 header,
 main,
 footer {
-    max-width: auto;
+    max-width: 960px;
     margin: 0 auto;
 }
 
 header {
-    background-color: indianred;
+    background-color: rgb(218, 31, 31);
     padding: 1.5rem;
     border-top-left-radius: 0.35em;
     border-top-right-radius: 0.35em;
@@ -38,7 +38,7 @@ h2 {
 }
 
 footer {
-    background-color: indianred;
+    background-color: rgb(218, 31, 31);
     padding: 1.5rem;
     color: white;
     text-align: center;
