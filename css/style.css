@@ -10,7 +10,7 @@ footer {
 }
 
 header {
-    background-color: rgb(218, 31, 31);
+    background-color: rgb(196, 38, 38);
     padding: 1.5rem;
     border-top-left-radius: 0.35em;
     border-top-right-radius: 0.35em;
@@ -38,7 +38,7 @@ h2 {
 }
 
 footer {
-    background-color: rgb(218, 31, 31);
+    background-color: rgb(196, 38, 38);
     padding: 1.5rem;
     color: white;
     text-align: center;
