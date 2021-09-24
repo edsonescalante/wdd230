@@ -6,6 +6,11 @@ header, footer {
     font-family: 'Bebas Neue', cursive;
 }
 
+header{
+    font-size: 25px;
+    font-weight: bold;
+}
+
 main{
     display: grid;
     grid-template-columns: 1fr;
@@ -17,21 +22,46 @@ main{
 
 header, footer, main {
     max-width: 1200px;
+    margin: 0 auto;
 }
 
+
+main section img{
+
+    width: 100%;
+    height: auto;
+}
 main section {
     margin: 1.5rem;
     padding: 0 1.25rem;
-    background-color: #def1f1;
-    box-shadow: 0 2.5px 10px 2.5px #00000066;
+    background-color: #e0e7e7;
+    box-shadow: 0 2.5px 10px 2.5px rgb(145, 144, 144);
 }
 
 h2{
     font-family: 'Fanwood Text', serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+h3{
+    font-family: 'Fanwood Text', serif;
+    font-size: 22px;
     font-weight: bold;
 }
 
 p{
     font-family: 'Fanwood Text', serif;
 }
+
+a{
+    color:rgb(17, 104, 104);
+    text-decoration: none;
+}
+
+footer a{
+    color: rgb(247, 244, 233);
+}
+
+
 
