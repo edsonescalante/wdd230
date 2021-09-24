@@ -1,0 +1,27 @@
+header, footer {
+    background-color: #1a1817;
+    color: ivory;
+    text-align: center;
+    padding: 0.15rem;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    object-fit: scale-down;
+    height: auto;
+    width: fit-content;
+}
+
+header, footer, main {
+    max-width: 1200px;
+}
+
+main section {
+    margin: 1.5rem;
+    padding: 0 1.25rem;
+    background-color: #e7f1f1;
+    box-shadow: 0 2.5px 10px 2.5px #00000066;
+}
+
