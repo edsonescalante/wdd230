@@ -1,8 +1,9 @@
 header, footer {
     background-color: #1a1817;
-    color: ivory;
+    color: rgb(242, 245, 247);
     text-align: center;
     padding: 0.15rem;
+    font-family: 'Bebas Neue', cursive;
 }
 
 main{
@@ -21,7 +22,16 @@ header, footer, main {
 main section {
     margin: 1.5rem;
     padding: 0 1.25rem;
-    background-color: #e7f1f1;
+    background-color: #def1f1;
     box-shadow: 0 2.5px 10px 2.5px #00000066;
+}
+
+h2{
+    font-family: 'Fanwood Text', serif;
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Fanwood Text', serif;
 }
 
