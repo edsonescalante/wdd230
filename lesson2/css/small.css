@@ -1,4 +1,5 @@
-header, footer {
+header,
+footer {
     background-color: #03071f;
     color: rgb(242, 245, 247);
     text-align: center;
@@ -6,12 +7,12 @@ header, footer {
     font-family: 'Bebas Neue', cursive;
 }
 
-header{
+header {
     font-size: 25px;
     font-weight: bold;
 }
 
-main{
+main {
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;
@@ -20,17 +21,20 @@ main{
     width: fit-content;
 }
 
-header, footer, main {
+header,
+footer,
+main {
     max-width: 1200px;
     margin: 0 auto;
 }
 
 
-main section img{
+main section img {
 
     width: 100%;
     height: auto;
 }
+
 main section {
     margin: 1.5rem;
     padding: 0 1.25rem;
@@ -38,30 +42,27 @@ main section {
     box-shadow: 0 2.5px 10px 2.5px rgb(145, 144, 144);
 }
 
-h2{
+h2 {
     font-family: 'Fanwood Text', serif;
     font-weight: bold;
     font-size: 25px;
 }
 
-h3{
+h3 {
     font-family: 'Fanwood Text', serif;
     font-size: 22px;
     font-weight: bold;
 }
 
-p{
+p {
     font-family: 'Fanwood Text', serif;
 }
 
-a{
-    color:rgb(17, 104, 104);
+a {
+    color: rgb(17, 104, 104);
     text-decoration: none;
 }
 
-footer a{
+footer a {
     color: rgb(247, 244, 233);
 }
-
-
-
