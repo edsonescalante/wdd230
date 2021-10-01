@@ -1,3 +1,7 @@
+header{
+    font-family: 'Bebas Neue', cursive;
+}
+
 header,
 footer {
     background-color: #63717a;
@@ -16,9 +20,11 @@ nav {
 }
 
 nav {
+    font-family: 'Anton', sans-serif;
     background-color: #36454f;
     text-align: center;
     box-shadow: 0 2px 15px gray;
+    font-weight: 100;
 }
 
 nav ul {
@@ -67,6 +73,7 @@ main section img {
 }
 
 p{
+    font-family: 'DM Sans', sans-serif;
     font-size: 18px;
 }
 
@@ -76,9 +83,8 @@ footer {
     margin: 0 auto;
 }
 
-
-
 h2 {
+    font-family: 'Kanit', sans-serif;
     text-align: center;
     color: rgb(17, 104, 104);
     font-size: 22px;
@@ -96,8 +102,58 @@ footer {
 
 footer{
     font-size: 15px;
+    font-family: 'Architects Daughter', cursive;
 }
 
 footer a {
     color: rgb(247, 244, 233);
 }
+
+li{
+    font-family: 'DM Sans', sans-serif;
+}
+
+/*css for target color scheme page */
+
+.block {
+    max-width: 200px;
+    font-size: 15px;
+    margin: 0 auto;
+    text-align:left;
+  }
+  
+.block img {
+    width: 200px;
+    height: 150px;
+    box-shadow: 0 0 10px 0 gray;
+}
+
+/*css for target typography page */
+
+#headerfont{
+    font-family: 'Bebas Neue', cursive;
+}
+
+#navfont{
+    text-align: left;
+    font-family: 'Anton', sans-serif;
+    color: black;
+}
+
+#titlefont{
+    font-family: 'Kanit', sans-serif; 
+}
+
+#footerfont{
+    font-family: 'Architects Daughter', cursive;
+}
+
+#textfont{
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+
+
+
+
