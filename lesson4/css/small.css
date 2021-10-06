@@ -1,8 +1,15 @@
+body{
+    background-color: rgb(236, 236, 190);
+}
+
 header{
     padding: 5px 0;
 	display: flex;
 	align-items:center;
 	justify-content:center;
+    font-family: 'Bebas Neue', cursive;
+    background-color: #63717a;
+    color: rgb(242, 245, 247);
 }
 
 header img {
@@ -16,7 +23,7 @@ header img {
 }
 
 .headings h1 {
-	font-size: 1.6rem;
+	font-size: 3.0rem;
 	margin: 0 0 0 17px;
     font-weight: bold;
 }
@@ -24,19 +31,28 @@ header img {
 .m {
 	font-style: italic;
 	letter-spacing: 1pt;
-	color: forestgreen;
+	color: rgb(18, 11, 109);
 	margin-left: 20px;
-	font-size: .9rem;
+	font-size: 1rem;
+}
+
+nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
 }
 
 nav {
 
+    font-family: 'Anton', sans-serif;
     max-width: 100%;
     margin: 0 auto;
     background-color: #36454f;
     text-align: center;
     box-shadow: 0 2px 15px gray;
-    font-weight: 100;
+    
 }
 
 nav ul {
@@ -54,10 +70,54 @@ nav ul li a {
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
-    background: linear-gradient(90deg, transparent, rgb(127, 191, 233), transparent) top / var(--d, 0) 10px no-repeat;
-    transition: 0.5s;
+    border-top: 1px solid rgba(0,0,0,0.3);
 }
 
-nav a:hover {
-    --d: 75%;
+nav ul li.active a{
+    background-color: rgba(0,0,0,0.2);
+    color: rgb(235, 182, 182);
+}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.4);
+}
+
+nav ul.hide{
+    display: none;
+}
+
+h2{
+    font-family: 'Kanit', sans-serif; 
+    text-align: center;
+}
+
+
+.contentbox{
+    
+    font-family: 'DM Sans', sans-serif;
+    background-color: rgb(166, 166, 172);
+    border: 1px solid rgb(46, 55, 58);
+    margin: 10px auto;
+	align-items:center;
+	justify-content:center;
+    max-width: 1170px;
+    padding: 20px;
+}
+
+footer{
+    
+    margin: 10px auto;
+	align-items:center;
+	justify-content:center;
+    align-items:center;
+	justify-content:center;
+    max-width: 1275px;
+    background-color: #58646b;
+    color: rgb(242, 245, 247);
+    text-align: center;
+    padding: 0.15rem;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 15px;
+    font-family: 'Architects Daughter', cursive;
+
 }
