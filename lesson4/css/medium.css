@@ -4,6 +4,10 @@
         display: none;
     }
 
+    nav ul {
+        display: flex;
+    }
+
     nav ul.hide {
         display: flex;
     }
@@ -22,6 +26,6 @@
         padding: .6rem 1rem;
     }
 
-    
+
 
 }
