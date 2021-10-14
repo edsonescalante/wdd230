@@ -1,3 +1,11 @@
+function success() {
+    if(document.getElementById("favchap").value === "") { 
+           document.getElementById('button').disabled = true; 
+       } else { 
+           document.getElementById('button').disabled = false;
+       }
+   }
+
 const list = document.querySelector('ul');
 const input = document.querySelector('input');
 const button = document.querySelector('button');
@@ -21,4 +29,6 @@ button.onclick = function () {
     }
 
     input.focus();
+
 }
+
