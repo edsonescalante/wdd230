@@ -1,0 +1,17 @@
+@media only screen and (min-width: 60em) {
+	nav a {
+		font-size: 1.1rem;
+	}
+
+	.boxfloat img {
+
+		display:flex;
+		float: right;
+		margin-left: 30px;
+		margin-bottom: 15px;
+		border-radius: 0.5em;
+		box-shadow: 0 0 50px #333;
+		width: 450px;
+	}
+
+}
