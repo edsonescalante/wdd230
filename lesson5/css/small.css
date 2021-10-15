@@ -10,10 +10,7 @@ body {
     padding: 15px 0;
     font-family: 'Architects Daughter', cursive;
     background: #ffff32;
-    background: -moz-linear-gradient(top, #ffff32 0%, #d1cc70 100%);
-    background: -webkit-linear-gradient(top, #ffff32 0%, #d1cc70 100%);
     background: linear-gradient(to bottom, #ffff32 0%, #d1cc70 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff32', endColorstr='#d1cc70', GradientType=0);
     color: rgb(26, 23, 23);
 }
 
