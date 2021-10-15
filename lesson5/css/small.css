@@ -261,8 +261,10 @@ h6{
     font-weight: bold;
 }
 
-h7{
-    font-size: 18px;
+#contacttitle{
+
+    color: black;
+    font-size: 20px;
     font-weight: bold;
 }
 
