@@ -18,8 +18,8 @@ header img {
 h1 {
     font-size: 1.5rem;
     color: white;
-    text-align: center; 
-    font-family: 'Suez One', serif; 
+    text-align: center;
+    font-family: 'Suez One', serif;
 }
 
 h2 {
@@ -29,7 +29,8 @@ h2 {
     font-family: 'Fanwood Text', serif;
 }
 
-header, footer {
+header,
+footer {
     background-color: rgb(196, 38, 38);
     padding: 1.5rem;
     color: white;
@@ -40,7 +41,7 @@ header, footer {
     border-bottom-right-radius: 0.35em;
 }
 
-footer{
+footer {
     font-family: 'Fanwood Text', serif;
 }
 
@@ -48,10 +49,10 @@ footer{
     color: yellow;
 }
 
-a{
+a {
     color: rgb(231, 240, 154);
 }
 
-ul a{
+ul a {
     color: rgb(17, 104, 104);
 }
