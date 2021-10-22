@@ -21,11 +21,15 @@
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
+
+    <script defer src="js/footer.js"></script>
+    <script defer src="js/windchill.js"></script>
+
 </head>
 
 <body>
 
-    <aside class="announcement onlyFriday" >
+    <aside class="announcement onlyFriday">
         <p>Saturday = Preston Pancakes in the Park!</p>
         <p>9:00 a.m. Saturday at the city park.</p>
     </aside>
@@ -63,6 +67,7 @@
 
     <main>
 
+
         <h2>Preston Idaho</h2>
 
         <section class="banner">
@@ -79,16 +84,21 @@
                 <section class="stats">
                     <h3>Weather Summary</h3>
                     <div class="gridlayout">
+
                         <span class="label">Currently:</span>
-                        <span id="temperature">Cloudy</span>
+                        <span id="skycondition">Cloudy</span>
+
                         <span class="label">Temperature:</span>
-                        <span id="degree">49 °F</span>
+                        <span class="condition"><span id="degree">54</span>°F</span>
+
                         <span class="label">Wind Chill:</span>
-                        <span id="windchill">51 °F</span>
+                        <span class="condition"><span id="wChill"></span>°F</span>
+
                         <span class="label">Humidity:</span>
                         <span id="humidity">74%</span>
+
                         <span class="label">Wind Speed:</span>
-                        <span id="currentweather">5 mph</span>
+                        <span class="condition"><span id="windspeed">12</span>mph</span>
                     </div>
 
                 </section>
@@ -96,11 +106,16 @@
 
         </section>
 
+        <h4 id="title">5 Day Forecast</h4>
 
         <section class="forecast">
-            <h4>5 Day Forecast</h4>
+
+
+
 
             <div class="flex">
+
+
                 <div class="flex-col">
                     <span class="col-head">Wed</span>
                     <img src="images/cloudyicon.png" alt="sun and clouds">
@@ -184,7 +199,8 @@
 
     </footer>
 
-    <script defer src="js/footer.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
 
 </body>
 
