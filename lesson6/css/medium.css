@@ -46,8 +46,14 @@
         padding: 1.5rem;
         box-shadow: 0 0 30px #333;
         opacity: .9;
-    
+
     }
 
+    /*CSS FOR THE GALLERY PAGE*/
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
 }

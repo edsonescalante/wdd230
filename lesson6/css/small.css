@@ -12,7 +12,7 @@ body {
     padding: 1em;
 }
 
-.onlyFriday{
+.onlyFriday {
     display: none;
 }
 
@@ -110,7 +110,7 @@ main {
 h2 {
     font-family: 'Kanit', sans-serif;
     text-align: center;
-    
+
 }
 
 .banner {
@@ -165,7 +165,7 @@ h4 {
     font-size: 1.5em;
 }
 
-#title{
+#title {
     margin: 20px 0 5px;
     font-family: 'Kanit', sans-serif;
 }
@@ -319,6 +319,36 @@ footer {
 
 }
 
-p{
+p {
     font-family: 'DM Sans', sans-serif;
+}
+
+/*CSS FOR THE GALLERY PAGE*/
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+picture img[data-src] {
+    filter: blur(0.2em);
+
+}
+
+picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+
+}
+
+.container img{
+    max-width: 100%;
+}
+
+.weatherpic{
+    margin: 1rem 1rem;
+}
+
+.container p{
+    text-align: center;
 }
