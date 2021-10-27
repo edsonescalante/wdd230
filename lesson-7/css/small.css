@@ -1,0 +1,145 @@
+body {
+    background-color: rgb(236, 236, 190);
+}
+
+.announcement { 
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: 'Architects Daughter', cursive;
+    background: linear-gradient(to bottom, #ffff32 0%, #d1cc70 100%);
+    color: rgb(26, 23, 23);
+    text-align: center;
+    padding: 1em;
+}
+
+.onlyFriday{
+    display: none;
+}
+
+header {
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    background-color: #63717a;
+    color: rgb(242, 245, 247);
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.headings h1 {
+    font-size: 3.0rem;
+    margin: 0 0 0 17px;
+    font-weight: bold;
+}
+
+.m {
+    font-style: italic;
+    letter-spacing: 1pt;
+    color: #FFFFFF;
+    margin-left: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+nav {
+
+    font-family: 'Allan', cursive;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #36454f;
+    text-align: center;
+    box-shadow: 0 2px 15px gray;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgb(236, 142, 142);
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+nav ul.hide {
+    display: none;
+
+}
+
+main {
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+h2{
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+}
+
+picture img[data-src] {
+    filter: blur(0.2em);
+
+}
+
+picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+img{
+    padding: 5px;
+}
+
+footer {
+
+    margin: 10px auto;
+    max-width: 1275px;
+    background-color: #58646b;
+    color: rgb(242, 245, 247);
+    text-align: center;
+    padding: 0.60rem;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 15px;
+    font-family: 'Architects Daughter', cursive;
+
+}
+
+p{
+    font-family: 'DM Sans', sans-serif;
+}

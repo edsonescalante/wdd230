@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Region Hotspot</title>
+    <meta name="description"
+        content="This is the image gallery page that displays nine weather-related images with brief descriptions below each image.">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Allan&family=Bebas+Neue&family=DM+Sans&family=Kanit:wght@300&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+
+    <script defer src="js/footer.js"></script>
+    <script defer src="js/windchill.js"></script>
+
+</head>
+
+<body>
+
+    <aside class="announcement onlyFriday">
+        <p>Saturday = Preston Pancakes in the Park!</p>
+        <p>9:00 a.m. Saturday at the city park.</p>
+    </aside>
+
+    <header>
+
+        <picture>
+
+            <img src="images/WeatherLogo.png" alt="animated clouds around the sun">
+
+        </picture>
+
+        <section class="headings">
+
+            <h1>Local Region Hotspot</h1>
+            <div class="m">The higher the clouds, the finer the weather.</div>
+
+        </section>
+
+    </header>
+
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li><a href="https://edsonescalante.github.io/wdd230/lesson6/preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li class="active"><a href="#">Gallary</a></li>
+
+        </ul>
+    </nav>
+
+
+    <main>
+
+        <h2>Weather Gallery</h2>
+
+        <picture>
+
+            <img src="images/placeholder.png" data-src="images/snowyday.jpg" alt="snow day">
+
+        </picture>
+
+        <picture>
+
+            <img src="images/placeholder.png" data-src="images/stormday.jpg" alt="storm weather">
+
+        </picture>
+
+        <picture>
+
+            <img src="images/placeholder.png" data-src="images/cloudyday.jpg" alt="storm weather">
+
+        </picture>
+
+        <picture>
+
+            <img src="images/placeholder.png" data-src="images/fallweather.jpg" alt="storm weather">
+
+        </picture>
+
+        <picture>
+
+            <img src="images/placeholder.png" data-src="images/foggyday.jpg" alt="storm weather">
+
+        </picture>
+
+        <picture>
+
+            <img src="images/placeholder.png" data-src="images/lightening.jpg" alt="storm weather">
+
+        </picture>
+
+        <picture>
+
+            <img src="images/placeholder.png" data-src="images/rainbow.jpg" alt="storm weather">
+
+        </picture>
+
+        <picture>
+
+            <img src="images/placeholder.png" data-src="images/snowyday.jpg" alt="storm weather">
+
+        </picture>
+
+        <picture>
+
+            <img src="images/placeholder.png" data-src="images/springday.jpg" alt="storm weather">
+
+        </picture>
+
+    </main>
+
+    <footer>
+
+        &copy; <span id="copyrightyear"></span> Local Region Hotspot︱Attributions︱Edson Escalante<br>
+
+        <span id="currentDate"></span>
+
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+    <script src="jslazyload.js/jslazyload.js"></script>
+
+</body>
+
+</html>
