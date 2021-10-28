@@ -56,7 +56,7 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    .weatherpic{
+    .weatherpic{ 
         margin: 1rem 1rem;
         border: 1px black solid;
     } 

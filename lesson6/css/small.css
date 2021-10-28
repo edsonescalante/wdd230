@@ -341,12 +341,13 @@ picture img {
 
 }
 
-.container img{
+.container img{ 
     max-width: 100%;
 }
 
 .weatherpic{
     margin: 1rem 1rem;
+    border: 1px black solid;
 } 
 
 .container p{
