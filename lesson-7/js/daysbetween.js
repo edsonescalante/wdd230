@@ -1,9 +1,25 @@
-const millisecondsToDays = 8640000;
+const daysSinceLastVisit = document.querySelector('#gallerylastVisited');
 
-const lastVisit = localStorage.getItem("lastvisit") || Date.now();
+function setDateLastVisited() {
+    localStorage.setItem("dateLastVisited", new Date());
+}
 
-(lastVisit - Date.now() / millisecondsToDays).toFixed(0);
+function getDateLastVisited(daysSinceLastVisit) {
+    try {
+        const milisecondsToDays = 8640000;
+        const lastVisit = localStorage.getItem("dateLastVisisted") || new Date();
+        const days = Math.round((lastVisit - new Date()) / milisecondsToDays);
 
-//display to wherever I want to
+        if (days > 0) {
+            daysSinceLastVisit.textContent = days;
+        } else {
+            daysSinceLastVisit.textContent = 0;
+        }
+    }
+    catch (er) {
+        daysSinceLastVisit.textContent = 0;
+    }
+}
 
-localStorage.setItem("lastvisit", Date.now());
+getDateLastVisited(daysSinceLastVisit)
+setDateLastVisited()
