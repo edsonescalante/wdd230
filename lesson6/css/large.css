@@ -38,4 +38,9 @@
 		box-shadow: 0 0 50px #333;
 	}
 
+	.weatherpic{
+		margin: 1rem 1rem;
+		border: 1px black solid;
+	} 
+
 }
