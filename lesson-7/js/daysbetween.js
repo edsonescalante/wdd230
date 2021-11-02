@@ -1,25 +1,15 @@
-const daysSinceLastVisit = document.querySelector('#gallerylastVisited');
+const todayDate = Date.now();
+const millisecondsToDays = 86400000;
+const lastVisit = localStorage.getItem("lastvisit") || todayDate;
 
-function setDateLastVisited() {
-    localStorage.setItem("dateLastVisited", new Date());
+numberofdays = ((d - lastVisit) / millisecondsToDays).toFixed(0);
+
+if (numberofdays == 0) {
+  document.querySelector("#gallaryLastVisited").innerHTML = "Welcome to the Weather Gallery!";
+} else {
+  document.querySelector(
+    "#gallaryLastVisited"
+  ).innerHTML = `Days since last visit: ${numberofdays}`;
 }
 
-function getDateLastVisited(daysSinceLastVisit) {
-    try {
-        const milisecondsToDays = 8640000;
-        const lastVisit = localStorage.getItem("dateLastVisisted") || new Date();
-        const days = Math.round((lastVisit - new Date()) / milisecondsToDays);
-
-        if (days > 0) {
-            daysSinceLastVisit.textContent = days;
-        } else {
-            daysSinceLastVisit.textContent = 0;
-        }
-    }
-    catch (er) {
-        daysSinceLastVisit.textContent = 0;
-    }
-}
-
-getDateLastVisited(daysSinceLastVisit)
-setDateLastVisited()
+localStorage.setItem("lastvisit", todayDate);
