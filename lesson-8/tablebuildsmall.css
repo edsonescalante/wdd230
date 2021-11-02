@@ -1,0 +1,56 @@
+body {
+  max-width: 300px;
+  margin: auto;
+}
+
+table {
+  margin: 70px auto;
+  width: 100%;
+  box-shadow: 10px 10px 10px #628ca6;
+}
+
+.columnlabel {
+  color: white;
+  background-color: #628ca6;
+}
+
+.whitedollar {
+  color: white;
+  background-color: #628ca6;
+}
+
+table,
+th,
+td {
+  font-size: 20px;
+  border-collapse: collapse;
+  border: 2px solid rgb(180, 178, 178);
+  padding: 8px;
+  font-weight: lighter;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #e7f0ed;
+}
+
+tr:nth-child(6) {
+  font-style: italic;
+}
+
+thead tr {
+  background-color: #7fb9c2;
+}
+
+th {
+  font-weight: bold;
+}
+
+tfoot tr td {
+  background-color: #7fb9c2;
+}
+
+tr {
+  background-color: #e7ffed;
+}
