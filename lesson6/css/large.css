@@ -38,9 +38,29 @@
 		box-shadow: 0 0 50px #333;
 	}
 
-	.weatherpic{
+	.weatherpic {
 		margin: 1rem 1rem;
 		border: 1px black solid;
-	} 
+	}
+
+	/*CSS FOR THE STORM CENTER PAGE*/
+
+	.stormcentermain {
+		max-width: 65%;
+		margin: 0 auto;
+	}	
+
+	form label.sbs {
+		padding: .4rem 0;
+	}
+
+	/*CSS FOR THE THANK YOU PAGE*/
+
+	.thankyou {
+
+		margin: 2rem auto;
+		width: 40%;
+		border: 2px black solid;
+	}
 
 }
