@@ -345,9 +345,11 @@ picture img {
     border: 1px black solid;
 }
 
-.container p {
+.container figcaption {
     text-align: center;
     font-weight: bold;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
 }
 
 /*CSS FOR THE STORM CENTER PAGE*/
@@ -408,7 +410,7 @@ form label.sbs {
     padding: .75rem;
     color: #555;
     
-}
+} 
 
 form input.submitBtn {
     border: none;
