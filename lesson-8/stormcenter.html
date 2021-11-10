@@ -74,7 +74,7 @@
 
         <form method="get" action="thanks.html">
 
-            <div>
+            <div class="fullform">
 
                 <fieldset>
 
@@ -98,19 +98,16 @@
                       >Storm Type
                       <input list="storm-type" name="storm-type" required/>
                       <datalist id="storm-type">
-                        <option value="Blizzard"></option>
                         <option value="Flash Flood"></option>
-                        <option value="Freezing Rain"></option>
                         <option value="Hail"></option>
                         <option value="Hurricane"></option>
-                        <option value="Snow"></option>
                         <option value="Thunderstorm"></option>
                         <option value="Tornado"></option></datalist
                     ></label>
         
                     <div>Storm Severity</div>
                     <label class="scale" for="stormSeverity">
-                        
+
                       <input
                         type="range"
                         name="stormSeverity"
@@ -167,9 +164,11 @@
                     </label>
                 </fieldset>
 
+            </div>
+
                 <input type="submit" value="Submit Report" class="submitBtn">
 
-            </div>
+           
         </form>
 
     </main>

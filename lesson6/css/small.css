@@ -360,6 +360,11 @@ picture img {
     
 }
 
+.fullform{
+        background-color: rgb(238, 232, 232);
+        padding: 0.1em 1em;
+        border-radius: 10px;
+}
 
 .stormcentertitle {
     text-align: center;
@@ -400,7 +405,7 @@ form label.top textarea {
     border-radius: 4px;
     padding: .75rem;
     color: #555;
-    width: 100%;
+    width: 80%;
     max-width: 20rem;
     background-color: rgba(189, 68, 68, 0.1);
 }
