@@ -79,3 +79,20 @@
 	}
 
 }
+
+/*CSS FOR WIREFRAME PAGE*/
+
+.wireframemain {
+	width: 80%;
+	margin: 0 auto;
+}	
+
+.wireframe {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	text-align: center;
+}
+
+.wireframe img{
+	max-width: 100%;
+}
