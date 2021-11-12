@@ -55,9 +55,29 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    .weatherpic{ 
+    .weatherpic {
         margin: 1rem 1rem;
         border: 1px black solid;
-    }  
+    }
 
-} 
+    /*CSS FOR THE HOME PAGE*/
+
+    div.homepagetowns section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .homepagetowns section:nth-child(odd) div {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .homepagetowns section:nth-child(odd) img {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    div.homepagetowns img {
+        margin: 0.5rem auto;
+	}
+}

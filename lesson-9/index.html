@@ -1,12 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Region Hotspot</title>
+  <meta name="description"
+    content="Welcome to Local Region Hotspot. Get a quick info from the Preston, Soda Springs, and Fish Haven areas.">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="../favicon.ico">
+  <link rel="stylesheet" href="../css/normalize.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Allan&family=Bebas+Neue&family=DM+Sans&family=Kanit:wght@300&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="../css/normalize.css" />
+  <link rel="stylesheet" href="../lesson6/css/small.css" />
+  <link rel="stylesheet" href="../lesson6/css/medium.css" />
+  <link rel="stylesheet" href="../lesson6/css/large.css" />
+
+  <script defer src="js/footer.js"></script>
+  <script defer src="js/daysbetween.js"></script>
+  <script defer src="js/adjustrate.js"></script>
+  <script defer src="js/towns.js"></script>
+
 </head>
+
 <body>
-    
+
+  <aside class="announcement onlyFriday">
+    <p>Saturday = Preston Pancakes in the Park!</p>
+    <p>9:00 a.m. Saturday at the city park.</p>
+  </aside>
+
+  <header>
+
+    <picture>
+
+      <img src="images/weatherlogo.png" alt="animated clouds around the sun">
+
+    </picture>
+
+    <section class="headings">
+
+      <h1>Local Region Hotspot</h1>
+      <div class="m">The higher the clouds, the finer the weather.</div>
+
+    </section>
+
+  </header>
+
+  <nav>
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+      <li class="active"><a href="https://edsonescalante.github.io/wdd230/lesson9/index.html">Home</a></li>
+      <li><a href="https://edsonescalante.github.io/wdd230/lesson6/preston-6.html">Preston</a></li>
+      <li><a href="#">Soda Springs</a></li>
+      <li><a href="#">Fish Haven</a></li>
+      <li><a href="https://edsonescalante.github.io/wdd230/lesson-8/stormcenter.html">Storm
+          Center</a></li>
+      <li><a href="https://edsonescalante.github.io/wdd230/lesson-7/gallery-7.html">Gallary</a>
+      </li>
+
+    </ul>
+  </nav>
+
+  <main class="homemain">
+
+    <h2><strong>Welcome!</strong></h2>
+
+    <div class="overlay">
+
+      <picture class="heroimage">
+        <source media="(max-width: 600px)" srcset="images/homeheroimg600.jpg">
+        <source media="(max-width: 900px)" srcset="images/homeheroimg900.jpg">
+        <source media="(min-width: 901px)" srcset="images/homeheroimg1100.jpg">
+        <img src="images/homeheroimg.jpg" alt="mountains view and sky">
+      </picture>
+
+    </div>
+
+    <div class="articlecontentbox">
+      <h3>Article for the Home Page</h3><br>
+
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus aliquam dolor, eu lacinia lorem
+      placerat vulputate. Duis felis orci, pulvinar id metus ut, rutrum luctus orci. Cras porttitor
+      imperdiet nunc, at ultricies tellus laoreet sit amet. Sed auctor cursus massa at porta. Integer
+      ligula ipsum, tristique sit amet orci vel, viverra egestas ligula. Curabitur vehicula tellus neque,
+      ac ornare ex malesuada et. In vitae convallis lacus. Aliquam erat volutpat.
+
+      Suspendisse ac imperdiet turpis. Aenean finibus sollicitudin eros pharetra congue.Lorem ipsum dolor sit amet,
+      consectetur
+      adipiscing elit. Nulla luctus aliquam dolor, eu lacinia lorem placerat vulputate. Duis felis orci,
+      pulvinar id metus ut, rutrum luctus orci. Cras porttitor imperdiet nunc, at ultricies tellus laoreet
+      sit amet.Sed auctor cursus massa at porta. Integer ligula ipsum, tristique sit amet orci vel,
+      viverra egestas ligula. Curabitur vehicula tellus neque, ac ornare ex malesuada et. In vitae
+      convallis lacus.
+
+      Aliquam erat volutpat. Suspendisse ac imperdiet turpis. Aenean finibus sollicitudin
+      eros pharetra congue. In vitae convallis lacus. Aliquam erat volutpat. Suspendisse ac imperdiet
+      turpis. Aenean finibus sollicitudin eros pharetra congue.Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit. Nulla luctus aliquam dolor, eu lacinia lorem placerat vulputate. Duis felis orci,
+      pulvinar id metus ut, rutrum luctus orci. Cras porttitor imperdiet nunc, at ultricies tellus laoreet
+      sit amet.
+    </div>
+
+    <div class="homepagetowns"></div>
+
+    <div class="contentboxhomepage">
+
+      <h6 id="contacttitle">Local Region Hotspot</h6><br><br>
+      <a id="locationlink"
+          href="https://www.google.com/maps/place/525+S+Center+St,+Rexburg,+ID+83460/@43.814189,-111.7852708,17z/data=!3m1!4b1!4m5!3m4!1s0x53540b03c3c8b0cd:0xfd28a97e4cccebc!8m2!3d43.814189!4d-111.7830821">
+          525 S Center St, Rexburg, ID 83460</a>
+      <p>&#128222; (999) 999-9999</p>
+      <p>&#128231; localregionH@idaho.edu</p>
+      <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+      <a href="https://twitter.com/" class="fa fa-twitter"></a>
+      <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+      
+  </div>
+
+  </main>
+
+  <footer>
+
+    <p><span id="gallaryLastVisited"></span></p>
+    &copy; <span id="copyrightyear"></span> Local Region Hotspot︱Attributions︱Edson Escalante<br>
+
+    <span id="currentDate"></span>
+
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="js/webfontload.js"></script>
 </body>
+
 </html>

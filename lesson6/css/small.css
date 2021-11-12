@@ -441,7 +441,80 @@ p {
     text-align: center;
 }
 
-main {
-    max-width: 95%;
+/*CSS FOR THE HOME PAGE*/
+
+.homemain{
+    max-width: 1000px;
+    padding: 1em;
     margin: 0 auto;
 }
+
+.articlecontentbox{
+    background-color: rgb(166, 166, 172);
+    border: 1px solid rgb(46, 55, 58);
+    border-radius: 10px;
+    font-family: 'DM Sans', sans-serif;
+    margin:20px 0px;
+    padding:20px;
+}
+
+.articlecontentbox h3{
+    text-align: center;
+}
+
+.homepagetowns{
+    background-color: #ECECBE;
+}
+
+div.homepagetowns section {
+    background-color: rgb(166, 166, 172);
+    text-align: center;
+    border: 1px solid rgb(46, 55, 58);
+}
+
+div.homepagetowns section:hover {
+    box-shadow: 0 0 50px #333;
+}
+
+
+div.homepagetowns {
+    display: grid;
+    grid-template-columns: 1fr;  
+    grid-gap: 10px;
+}
+
+div.homepagetowns h3 {
+
+    font-family: 'DM Sans', sans-serif;
+    color: black;  
+    font-style: italic;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+div.homepagetowns h2 {
+
+    font-family: 'Kanit', sans-serif;
+    color: black;  
+}
+
+div.homepagetowns p {
+    font-family: 'DM Sans', sans-serif;
+    margin: 0 auto;
+}
+
+.homepagetowns img {
+    margin: 1rem;
+  }
+
+.contentboxhomepage {
+
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    background-color: rgb(166, 166, 172);
+    border: 1px solid rgb(46, 55, 58);
+    margin: 10px auto;
+    padding: 20px;
+}  
+
+
