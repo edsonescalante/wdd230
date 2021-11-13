@@ -10,8 +10,8 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     const towns = jsonObject['towns'];
-    const highcountry = towns.filter((towns) => towns.name === 'Preston' || towns.name === 'Fish Haven' || towns.name === 'Soda Springs');
-    highcountry.forEach(highcountry => {
+    const areas = towns.filter((towns) => towns.name === 'Preston' || towns.name === 'Fish Haven' || towns.name === 'Soda Springs');
+    areas.forEach(areas => {
       let towndescription = document.createElement('section');
       let section = document.createElement('div');
       let townname = document.createElement('h2');
@@ -22,13 +22,13 @@ fetch(requestURL)
       let image = document.createElement('img');
 
       towndescription.innerHTML = `<span class="towndescription></span>`;
-      townname.innerHTML = `<span class="descrip">${highcountry.name}</span>`;
-      motto.innerHTML = `<span class="descrip">"${highcountry.motto}"</span>`;
-      yfounded.innerHTML = `<span class="descrip">Year Founded: ${highcountry.yearFounded}</span>`;
-      population.innerHTML = `<span class="descrip">Population: ${highcountry.currentPopulation}</span>`;
-      rain.innerHTML = `<span class="descrip">Annual Rain Fall: ${highcountry.averageRainfall}</span>`;
-      image.setAttribute('src', `images/${highcountry.photo}`);
-      image.setAttribute('alt', `${highcountry.name}`);
+      townname.innerHTML = `<span class="descrip">${areas.name}</span>`;
+      motto.innerHTML = `<span class="descrip">"${areas.motto}"</span>`;
+      yfounded.innerHTML = `<span class="descrip">Year Founded: ${areas.yearFounded}</span>`;
+      population.innerHTML = `<span class="descrip">Population: ${areas.currentPopulation}</span>`;
+      rain.innerHTML = `<span class="descrip">Annual Rain Fall: ${areas.averageRainfall}</span>`;
+      image.setAttribute('src', `images/${areas.photo}`);
+      image.setAttribute('alt', `${areas.name}`);
 
 
       towndescription.appendChild(section);
