@@ -1,0 +1,76 @@
+@media only screen and (min-width: 37.5em) {
+
+    nav button {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul.hide {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    nav a {
+        font-size: 1rem;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+        padding: .6rem 1rem;
+    }
+
+    .boxfloat img {
+        
+        display: flex;
+        float: right;
+        margin-left: 30px;
+        margin-bottom: 15px;
+        border-radius: 0.5em;
+        box-shadow: 0 0 50px #333;
+        width: 300px;
+    }
+
+    .stats {
+        top: 30px;
+        left: 50px;
+    }
+
+    /*CSS FOR THE GALLERY PAGE*/
+
+    .container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .weatherpic {
+        margin: 1rem 1rem;
+        border: 1px black solid;
+    }
+
+    /*CSS FOR THE HOME PAGE*/
+
+    div.homepagetowns section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .homepagetowns section:nth-child(odd) div {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .homepagetowns section:nth-child(odd) img {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    div.homepagetowns img {
+        margin: 0.5rem auto;
+	}
+}
