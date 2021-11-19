@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="css/large.css" />
 
     <script defer src="js/footer.js"></script>
-    <script defer src="js/windchill.js"></script>
+    <script defer src="js/prestonweather.js"></script>
 
 </head>
 
@@ -55,7 +55,8 @@
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
             <li><a href="https://edsonescalante.github.io/wdd230/lesson-9/index.html">Home</a></li>
-            <li class="active"><a href="https://edsonescalante.github.io/wdd230/lesson6/preston-6.html">Preston</a></li>
+            <li class="active"><a href="https://edsonescalante.github.io/wdd230/lesson-10/preston-10.html">Preston</a>
+            </li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="https://edsonescalante.github.io/wdd230/lesson-8/stormcenter.html">Storm Center</a></li>
@@ -76,8 +77,8 @@
                 <picture class="heroimage">
                     <source media="(max-width: 600px)" srcset="images/heroimage600.jpg">
                     <source media="(max-width: 900px)" srcset="images/heroimage900.jpg">
-                    <source media="(min-width: 901px)" srcset="images/heroimage1200.jpg">
-                    <img src="images/heroimage.jpeg" alt="grass and a clear sky">
+                    <source media="(min-width: 901px)" srcset="images/heroimage1100.jpg">
+                    <img src="images/heroimage.jpg" alt="grass and a clear sky">
                 </picture>
 
                 <section class="stats">
@@ -85,19 +86,19 @@
                     <div class="gridlayout">
 
                         <span class="label">Currently:</span>
-                        <span id="skycondition">Cloudy</span>
+                        <span class="condition"><span id="skycondition"></span></span>
 
                         <span class="label">Temperature:</span>
-                        <span class="condition"><span id="degree">54</span>°F</span>
+                        <span class="condition"><span id="degree"></span>°F</span>
 
                         <span class="label">Wind Chill:</span>
                         <span class="condition"><span id="wChill"></span>°F</span>
 
                         <span class="label">Humidity:</span>
-                        <span id="humidity">74%</span>
+                        <span class="condition"><span id="humid"></span>%</span>
 
                         <span class="label">Wind Speed:</span>
-                        <span class="condition"><span id="windspeed">12</span>mph</span>
+                        <span class="condition"><span id="windspeed"></span>mph</span>
                     </div>
 
                 </section>
@@ -105,40 +106,40 @@
 
         </section>
 
-        <h4 id="title">5 Day Forecast</h4>
+
 
         <section class="forecast">
 
-
-
+            <h4 id="title">5 Day Forecast</h4>
 
             <div class="flex">
 
 
                 <div class="flex-col">
-                    <span class="col-head">Wed</span>
-                    <img src="images/cloudyicon.png" alt="sun and clouds">
-                    <span class="data">50°F</span>
+                    <span class="col-head" id="wday1"></span>
+                    <img src="" alt="" id="img1">
+                    <span class="data" id="degree1">°F</span>
+                </div>
+
+                <div class="flex-col">
+                    <span class="col-head" id="wday2"></span>
+                    <img src="" alt="" id="img2">
+                    <span class="data" id="degree2">°F</span>
                 </div>
                 <div class="flex-col">
-                    <span class="col-head">Thu</span>
-                    <img src="images/cloudyicon.png" alt="sun and clouds">
-                    <span class="data">49°F</span>
+                    <span class="col-head" id="wday3"></span>
+                    <img src="" alt="" id="img3">
+                    <span class="data" id="degree3">°F</span>
                 </div>
                 <div class="flex-col">
-                    <span class="col-head">Fri</span>
-                    <img src="images/cloudyicon.png" alt="sun and clouds">
-                    <span class="data">40°F</span>
+                    <span class="col-head" id="wday4"></span>
+                    <img src="" alt="" id="img4">
+                    <span class="data" id="degree4">°F</span>
                 </div>
                 <div class="flex-col">
-                    <span class="col-head">Sat</span>
-                    <img src="images/cloudyicon.png" alt="sun and clouds">
-                    <span class="data">37°F</span>
-                </div>
-                <div class="flex-col">
-                    <span class="col-head">Sun</span>
-                    <img src="images/cloudyicon.png" alt="sun and clouds">
-                    <span class="data">49°F</span>
+                    <span class="col-head" id="wday5"></span>
+                    <img src="" alt="" id="img5">
+                    <span class="data" id="degree5">°F</span>
                 </div>
             </div>
 
@@ -154,7 +155,8 @@
 
                 <h6>by Joseph Smith</h6>
 
-                <p class="prestonarticle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus aliquam dolor, eu lacinia lorem
+                <p class="prestonarticle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus aliquam
+                    dolor, eu lacinia lorem
                     placerat vulputate. Duis felis orci, pulvinar id metus ut, rutrum luctus orci. Cras porttitor
                     imperdiet nunc, at ultricies tellus laoreet sit amet. Sed auctor cursus massa at porta. Integer
                     ligula ipsum, tristique sit amet orci vel, viverra egestas ligula. Curabitur vehicula tellus neque,
@@ -185,14 +187,15 @@
             <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
             <a href="https://twitter.com/" class="fa fa-twitter"></a>
             <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
-            
+
         </div>
 
     </main>
 
     <footer>
 
-        &copy; <span id="copyrightyear"></span> Local Region Hotspot︱Attributions︱Edson Escalante<br>
+        &copy; <span id="copyrightyear"></span> Local Region Hotspot︱Attributions: Weather by <a
+            href="https://openweathermap.org/">OpenWeatherMap</a>︱Edson Escalante<br>
 
         <span id="currentDate"></span>
 

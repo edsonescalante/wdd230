@@ -312,6 +312,10 @@ footer {
 
 }
 
+a {
+    color: rgb(231, 240, 154);
+}
+
 .prestonarticle {
     font-family: 'DM Sans', sans-serif;
     text-align: justify;
