@@ -34,11 +34,11 @@ fetch(forcastURL)
     .then((response) => response.json())
     .then((jsObject) => {
 
-        const time = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
+        const hourmark = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
         const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-
         let day = 0;
-        time.forEach(forecast => {
+        
+        hourmark.forEach(forecast => {
             let thedate = new Date(forecast.dt_txt);
             const imagesrc = 'https://openweathermap.org/img/w/' + forecast.weather[0].icon + '.png';
             const desc = forecast.weather[0].description;
