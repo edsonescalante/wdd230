@@ -303,12 +303,11 @@ h6 {
 footer {
 
     margin: 10px auto;
-    max-width: 1275px;
+    max-width: 95%;
     background-color: #58646b;
     color: rgb(242, 245, 247);
     text-align: center;
     padding: 0.60rem;
-    font-family: 'Bebas Neue', cursive;
     font-size: 15px;
     font-family: 'Architects Daughter', cursive;
 
