@@ -450,6 +450,10 @@ p {
     text-align: center;
 }
 
+.thankyou a{
+    color:brown;
+}
+
 /*CSS FOR THE HOME PAGE*/
 
 .homemain{
