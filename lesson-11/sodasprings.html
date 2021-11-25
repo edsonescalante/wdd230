@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Preston</title>
+    <title>Soda Springs</title>
     <meta name="description"
-        content="This is the page for the Local Regional Site, Preston. A weather report, a forcast for the next 5 days, and a trending article is available for the public.">
+        content="This is the page for the Local Regional Site, Soda Springs. A weather report, a forcast for the next 5 days, and the most popular activies of the area are available for the public.">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -22,19 +22,11 @@
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
 
-    <script defer src="js/prestonbanner.js"></script>
     <script defer src="js/footer.js"></script>
     <script defer src="js/daysbetween.js"></script>
-    <script defer src="js/prestonweather.js"></script>
-
 </head>
 
 <body>
-
-    <aside class="announcement onlyFriday">
-        <p>Saturday = Preston Pancakes in the Park!</p>
-        <p>9:00 a.m. Saturday at the city park.</p>
-    </aside>
 
     <header>
 
@@ -57,9 +49,10 @@
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
             <li><a href="https://edsonescalante.github.io/wdd230/lesson-11/index.html">Home</a></li>
-            <li class="active"><a href="https://edsonescalante.github.io/wdd230/lesson-11/preston.html">Preston</a>
+            <li><a href="https://edsonescalante.github.io/wdd230/lesson-11/preston.html">Preston</a>
             </li>
-            <li><a href="https://edsonescalante.github.io/wdd230/lesson-11/sodasprings.html">Soda Springs</a></li>
+            <li class="active"><a href="https://edsonescalante.github.io/wdd230/lesson-11/sodasprings.html">Soda
+                    Springs</a></li>
             <li><a href="https://edsonescalante.github.io/wdd230/lesson-11/fishhaven.html">Fish Haven</a></li>
             <li><a href="https://edsonescalante.github.io/wdd230/lesson-11/stormcenter.html">Storm Center</a></li>
             <li><a href="https://edsonescalante.github.io/wdd230/lesson-11/gallery.html">Gallary</a></li>
@@ -67,20 +60,19 @@
         </ul>
     </nav>
 
-
     <main class="prestonmain">
 
-        <h2>Preston Idaho</h2>
+        <h2>Soda Springs</h2>
 
         <div class="banner">
 
             <div class="overlay">
 
                 <picture class="heroimage">
-                    <source media="(max-width: 600px)" srcset="images/heroimage600.jpg">
-                    <source media="(max-width: 900px)" srcset="images/heroimage900.jpg">
-                    <source media="(min-width: 901px)" srcset="images/heroimage1100.jpg">
-                    <img src="images/heroimage.jpg" alt="grass and a clear sky">
+                    <source media="(max-width: 600px)" srcset="images/ssheroimage600.jpg">
+                    <source media="(max-width: 900px)" srcset="images/ssheroimage900.jpg">
+                    <source media="(min-width: 901px)" srcset="images/ssheroimage1100.jpg">
+                    <img src="images/ssheroimage.jpg" alt="tree with a sunset background">
                 </picture>
 
                 <section class="stats">
@@ -145,36 +137,60 @@
 
         </section>
 
-        <section class="articlepost">
+        <div class="ssarticles">
 
-            <div class="boxfloat">
+            <section>
 
-                <img src="images/outdoorpicture.jpg" alt="two girls having a hot drink outdoors">
+                <h2>Hiking</h2>
 
-                <h5>Founders Day Fresco</h5>
+                <img src="images/sshiking.jpg" alt="man standing and contemplating nature">
 
-                <h6>by Joseph Smith</h6>
-
-                <p class="prestonarticle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus aliquam
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus aliquam
                     dolor, eu lacinia lorem
                     placerat vulputate. Duis felis orci, pulvinar id metus ut, rutrum luctus orci. Cras porttitor
                     imperdiet nunc, at ultricies tellus laoreet sit amet. Sed auctor cursus massa at porta. Integer
                     ligula ipsum, tristique sit amet orci vel, viverra egestas ligula. Curabitur vehicula tellus neque,
-                    ac ornare ex malesuada et. In vitae convallis lacus. Aliquam erat volutpat. Suspendisse ac imperdiet
-                    turpis. Aenean finibus sollicitudin eros pharetra congue.Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. Nulla luctus aliquam dolor, eu lacinia lorem placerat vulputate. Duis felis orci,
-                    pulvinar id metus ut, rutrum luctus orci. Cras porttitor imperdiet nunc, at ultricies tellus laoreet
-                    sit amet. Sed auctor cursus massa at porta. Integer ligula ipsum, tristique sit amet orci vel,
-                    viverra egestas ligula. Curabitur vehicula tellus neque, ac ornare ex malesuada et. In vitae
-                    convallis lacus. Aliquam erat volutpat. Suspendisse ac imperdiet turpis. Aenean finibus sollicitudin
-                    eros pharetra congue. In vitae convallis lacus. Aliquam erat volutpat. Suspendisse ac imperdiet
-                    turpis. Aenean finibus sollicitudin eros pharetra congue.Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. Nulla luctus aliquam dolor, eu lacinia lorem placerat vulputate. Duis felis orci,
-                    pulvinar id metus ut, rutrum luctus orci. Cras porttitor imperdiet nunc, at ultricies tellus laoreet
-                    sit amet.</p>
+                    ac ornare ex malesuada et. In vitae convallis lacus.
+                </p>
 
-            </div>
-        </section>
+            </section>
+
+            <section>
+
+                <h2>Picnic</h2>
+
+                <img src="images/sspicnic.jpg" alt="family having a picnic outdoors">
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus aliquam
+                    dolor, eu lacinia lorem
+                    placerat vulputate. Duis felis orci, pulvinar id metus ut, rutrum luctus orci. Cras porttitor
+                    imperdiet nunc, at ultricies tellus laoreet sit amet. Sed auctor cursus massa at porta. Integer
+                    ligula ipsum, tristique sit amet orci vel, viverra egestas ligula. Curabitur vehicula tellus neque,
+                    ac ornare ex malesuada et. In vitae convallis lacus.
+                </p>
+
+            </section>
+
+            <section>
+
+                <h2>Sledding</h2>
+
+                <img src="images/sssledding.jpg" alt="mother and son going up on a snowy hill">
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus aliquam
+                    dolor, eu lacinia lorem
+                    placerat vulputate. Duis felis orci, pulvinar id metus ut, rutrum luctus orci. Cras porttitor
+                    imperdiet nunc, at ultricies tellus laoreet sit amet. Sed auctor cursus massa at porta. Integer
+                    ligula ipsum, tristique sit amet orci vel, viverra egestas ligula. Curabitur vehicula tellus neque,
+                    ac ornare ex malesuada et. In vitae convallis lacus.
+                </p>
+
+            </section>
+
+        </div>
 
         <div class="contentbox">
 

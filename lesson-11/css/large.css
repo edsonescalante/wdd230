@@ -18,7 +18,7 @@
 
 		position: absolute;
 		top: 30px;
-		left: 120px;
+		left: 70px;
 		background: radial-gradient(#eee, #989b9c);
 		border: 1px solid #000;
 		padding: 1.5rem;
@@ -44,7 +44,7 @@
 
 	.weatherpic {
 		margin: 1rem 1rem;
-		border: 1px black solid;
+		border: 1px black solid; 
 	}
 
 	/*CSS FOR THE STORM CENTER PAGE*/
@@ -114,6 +114,12 @@
 	.homepagetowns section:nth-child(odd) img {
 		grid-column: 1;
 		grid-row: 2;
+	}
+
+	/*CSS FOR SODA SPRINGS*/
+
+	.ssarticles{
+		grid-template-columns: 1fr 1fr 1fr;
 	}
 
 }

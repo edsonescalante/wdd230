@@ -80,4 +80,10 @@
     div.homepagetowns img {
         margin: 0.5rem auto;
 	}
+
+    /*CSS FOR SODA SPRINGS*/
+
+    .ssarticles{
+        grid-template-columns: 1fr 1fr;
+    }
 }

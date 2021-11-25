@@ -190,9 +190,7 @@ h6 {
 }
 
 .forecast {
-    max-width: 100%;
     margin: 0 auto;
-    padding: 5px;
 }
 
 .flex {
@@ -529,5 +527,23 @@ div.homepagetowns p {
     margin: 10px auto;
     padding: 20px;
 }  
+
+
+/*CSS FOR SODA SPRINGS*/
+
+.ssarticles{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    margin-top: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.ssarticles section{
+    padding: 0 1.25rem;
+    background-color: rgb(166, 166, 172);
+    border: 1px solid rgb(46, 55, 58);
+}
 
 

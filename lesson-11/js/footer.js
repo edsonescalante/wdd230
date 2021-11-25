@@ -14,13 +14,3 @@ document.getElementById("currentDate").textContent = d.toLocaleDateString('en-UK
 function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("hide");
 }
-
-
-const fri = d.getDay();
-const banner = document.querySelector("aside");
-
-if (fri == 5) {
-    banner.setAttribute("class", "announcement");
-} else {
-    banner.setAttribute("class", "onlyFriday");
-}
