@@ -146,6 +146,7 @@ h3 {
 
 .label {
     font-weight: bold;
+    padding-right: 8px;
 }
 
 .stats {

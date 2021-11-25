@@ -37,16 +37,9 @@
     }
 
     .stats {
-
-        position: absolute;
         top: 30px;
-        left: 50px;
-        background: radial-gradient(#eee, #989b9c);
-        border: 1px solid #000;
+        left: 50px; 
         padding: 1.5rem;
-        box-shadow: 0 0 30px #333;
-        opacity: .9;
-
     }
 
     /*CSS FOR THE GALLERY PAGE*/
