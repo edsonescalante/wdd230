@@ -190,10 +190,6 @@ h6 {
 
 }
 
-.forecast {
-    margin: 0 auto;
-}
-
 .flex {
     display: flex;
     flex-flow: row wrap;
@@ -238,9 +234,28 @@ h6 {
     text-align: center;
 }
 
+
+
+.eventstitle{
+    margin: 20px 0 5px;
+}
+
+div.eventscss{
+    background-color: rgb(166, 166, 172);
+    color: rgb(0, 0, 0);
+    max-width: 90%;
+    border: 1px solid rgb(46, 55, 58);
+    font-family: 'DM Sans', sans-serif;
+    margin: 0 auto;
+}
+
+div.eventscss p{
+    font-weight: bold;
+}
+
 .articlepost {
 
-    margin: 12px auto 5px;
+    margin: 30px 0 5px;
     border: 1px solid rgb(46, 55, 58);
 }
 
