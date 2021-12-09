@@ -1,0 +1,22 @@
+{
+    "cityevents": [{
+            "name": "Future Events",
+            "events": [
+                "Dec 08, 2021: LB Education Session 2021",
+                "Dec 08, 2021: Business After Hours | Garden Plaza of Valley View",
+                "Dec 08, 2021: Chamber Check-In with Milan Institute",
+                "Dec 08, 2021: Start-Ups & Suds | The HandleBar Boise",
+                "Dec 08, 2021: Chamber Check-In with Idaho First Bank"
+            ]
+        },
+        {
+            "name": "Current Events", 
+            "events": [
+                "January 8: Spring into Winter",
+                "April 10-20: Celebration of Life",
+                "July 31-Aug 15: Dog Days of Summer Festival"
+            ]
+        }
+        
+    ]
+}

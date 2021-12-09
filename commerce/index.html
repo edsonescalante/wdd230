@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce Boise</title>
+    <meta name="description"
+        content="Welcome to the chamber of commerce for Boise, Idaho. We offer information, training, events, and specialized services for local businesses.">
+
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+
+    <script defer src="js/weather.js"></script>
+    <script defer src="js/events.js"></script>
+    <script defer src="js/lastvisited.js"></script>
+    <script defer src="js/footer.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <picture>
+
+            <img src="images/chamberlogo.png" alt="animated face with a world">
+
+        </picture>
+
+        <section class="headings">
+
+            <h1>Chamber of Commerce Boise</h1>
+            <div class="m">The new service of the CCB for businesses.</div>
+
+        </section>
+
+    </header>
+
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li class="active"><a href="https://edsonescalante.github.io/wdd230/commerce/index.html">Home</a></li>
+            <li><a href="https://edsonescalante.github.io/wdd230/commerce/city.html">Boise</a></li>
+            <li><a href="https://edsonescalante.github.io/wdd230/commerce/join.html">Join</a></li>
+            <li><a href="https://edsonescalante.github.io/wdd230/commerce/directory.html">Directory</a></li>
+            <li><a href="https://edsonescalante.github.io/wdd230/commerce/contact.html">Contact</a></li>
+            </li>
+
+        </ul>
+    </nav>
+
+    <main>
+
+        <br>
+        <div class="homeherooverlay">
+            
+            <picture class="heroimage">
+                <source media="(max-width: 600px)" srcset="images/homeheroimg600.jpg">
+                <source media="(max-width: 900px)" srcset="images/homeheroimg900.jpg">
+                <source media="(min-width: 901px)" srcset="images/homeheroimg1100.jpg">
+                <img src="images/homeheroimg.jpg" alt="man standing and contemplating the capitol of Boise Idaho">
+            </picture>
+
+            <section class="stats">
+
+                <h2>Weather Summary</h2>
+
+                <div class="gridlayout">
+
+                    <span class="label">Currently:</span>
+                    <span class="condition"><span id="skycondition"></span></span>
+
+                    <span class="label">Temperature:</span>
+                    <span class="condition"><span id="degree"></span>°F</span>
+
+                    <span class="label">Humidity:</span>
+                    <span class="condition"><span id="humid"></span>%</span>
+
+                </div>
+
+
+            </section>
+
+            <div class="joinbutton">
+                <a href="https://edsonescalante.github.io/wdd230/commerce/join.html" class="storm-button">Join the Team
+                    NOW!</a>
+            </div>
+
+        </div>
+
+        <div class="purposebox">
+            <h2>Our Purpose</h2>
+
+            <p>The Chamber of Commerce of Boise has the <strong>purpose</strong> to boost the digital transformation of
+                the businesses that are associated with the CCB. We <strong>provide</strong> information, training,
+                events, and specialized services for the transformation your business and its digital evolution.</p>
+
+            <p>We <strong>achieve</strong> these goals with our innovation, technological tools, and strategic
+                alliances. </p>
+
+        </div>
+
+        <div class="adcompanies">
+
+            <section>
+
+                <h2>HOT DOG</h2>
+
+                <img src="images/hotdogbusiness.jpg" alt="counter selling hotdogs on the street.">
+
+                <p>
+                    Fishing isn’t just about fish; it’s about having fun either alone or with friends and family.
+                    Fishing is also a great opportunity to enjoy the outdoors, learn new skills, and learn a thing or
+                    two about different fish species.
+                    You’ve probably been wondering why fishing is a very popular hobby for many Americans. Well, it’s
+                    because fishing is fun and for many reasons. The excitement of having a fish smacking your lure is
+                    fun and thrilling.
+                </p>
+
+            </section>
+
+            <section>
+
+                <h2>BFK</h2>
+
+                <img src="images/bfkbusiness.jpg" alt="chalkboard in the street with incriptions of products.">
+
+                <p>
+                    There may be no summer activity more timeless than taking a dip in a swimming hole, a classic recipe
+                    for satisfaction on a hot weekend. And there is no better way to spice up the fun than by sprinkling
+                    in some adrenaline and jumping off cliffs.
+                    Cliff jumping is, of course, a dangerous activity that should be enjoyed responsibly, and swimming
+                    holes are special places that can be easily damaged by irresponsible use.
+                </p>
+
+            </section>
+
+            <section>
+
+                <h2>TRIANA</h2>
+
+                <img src="images/retailbusiness.jpg" alt="yellow and black leather cross body bag.">
+
+                <p>
+                    In mountain biking, the first race in the company of others is the beginning of a new chapter in
+                    one’s life. The fun that bikers derive from frequent bouts of adrenaline rush helps them overcome
+                    emotional struggles. You begin to experience a higher level of self-esteem as you perfect the art of
+                    biking. Moreover, you learn to focus and start doing things differently. It is an addictive leisure
+                    activity/sport that connects you to people with whom you share common interests and goals.
+                </p>
+
+            </section>
+
+        </div>
+
+            <section>
+
+                <h2>Future Events</h2>
+                <div class="eventsinfo">
+                </div>
+
+            </section>
+
+            <section class="forecast">
+
+                <h2>3 Day Forecast</h2>
+
+                <div class="flex">
+
+
+                    <div class="flex-col">
+                        <span class="col-head" id="wday1"></span>
+                        <img src="" alt="" id="img1">
+                        <span class="data" id="degree1">°F</span>
+                    </div>
+
+                    <div class="flex-col">
+                        <span class="col-head" id="wday2"></span>
+                        <img src="" alt="" id="img2">
+                        <span class="data" id="degree2">°F</span>
+                    </div>
+                    <div class="flex-col">
+                        <span class="col-head" id="wday3"></span>
+                        <img src="" alt="" id="img3">
+                        <span class="data" id="degree3">°F</span>
+                    </div>
+                   
+                </div>
+
+
+            </section>
+
+        <div class="contactbox">
+
+            <h2>Contact Us!</h2>
+            <a
+                href="https://www.google.com/maps/place/1101+W+Front+St,+Boise,+ID+83702/@43.6157779,-116.2099307,17.75z/data=!4m5!3m4!1s0x54aef8ef62312f39:0xf87b93602c37d05e!8m2!3d43.6158474!4d-116.2092955">📍1101
+                W Front St
+                STE 100, Boise, ID 83702</a>
+            <p>☎️ (999) 999-9999</p>
+            <p>📧 ccb@boiseidaho.com</p>
+            <div>
+                <a href="https://www.facebook.com/"><img src="images/facebookicon.png" alt="facebook icon" /></a>
+                <a href="https://www.instagram.com/"><img src="images/instagramicon.png" alt="instagram icon" /></a>
+                <a href="https://www.twitter.com/"><img src="images/twittericon.png" alt="twitter icon" /></a>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+
+        <p><span id="LastVisited"></span></p>
+        &copy; Copyright <span id="copyrightyear"></span>︱Chamber of Commerce Boise︱Attribution<br>
+
+        <span id="currentDate"></span>
+
+    </footer>
+
+</body>
+
+</html>
