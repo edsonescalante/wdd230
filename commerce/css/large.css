@@ -3,7 +3,35 @@
         font-size: 1.1rem;
     }
 
-    .adcompanies{
+    .adcompanies, .membership-grid{
 		grid-template-columns: 1fr 1fr 1fr;
 	}
+
+    /**CSS FOR APPLICATION PAGE**/
+
+	.memberships{
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+
+    .applicationmain {
+		max-width: 900px;
+		margin: 0 auto;
+	}
+
+	form label.sbs {
+		padding: .4rem 0;
+	}
+
+	form input.submitBtn {
+		border: none;
+		background-color: #36454f;
+		color: white;
+		border-radius: 1rem;
+		padding: .75rem 1.5rem;
+		margin: 20px 35px;
+		width: 90%;
+	}
+
+	
+
 }

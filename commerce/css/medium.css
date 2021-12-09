@@ -26,10 +26,15 @@
         font-size: 1rem;
     }
 
-    nav ul li a {
+    nav ul li a { 
         border: none;
         border-right: 1px solid rgba(0, 0, 0, 0.3);
         padding: .6rem 1rem;
+    }
+
+    .stats{
+        left: 25px;
+        padding: 1.2rem;
     }
 
     .joinbutton{
@@ -37,7 +42,9 @@
         margin: 2rem;
     }
 
-    .adcompanies{
+    .adcompanies, .memberships{
         grid-template-columns: 1fr 1fr;
     }
+
+   
 }

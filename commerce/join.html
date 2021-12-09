@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Application CCB</title>
+    <meta name="description" content="Join the Chamber of Commerce of Boise now!">
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+
+    <script defer src="js/lastvisited.js"></script>
+    <script defer src="js/footer.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <picture>
+
+            <img src="images/chamberlogo.png" alt="animated face with a world">
+
+        </picture>
+
+        <section class="headings">
+
+            <h1>Chamber of Commerce Boise</h1>
+            <div class="m">The new service of the CCB for businesses.</div>
+
+        </section>
+
+    </header>
+
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="https://edsonescalante.github.io/wdd230/commerce/index.html">Home</a></li>
+            <li><a href="https://edsonescalante.github.io/wdd230/commerce/city.html">Boise</a></li>
+            <li class="active"><a href="https://edsonescalante.github.io/wdd230/commerce/join.html">Join the Chamber</a>
+            </li>
+            <li><a href="https://edsonescalante.github.io/wdd230/commerce/directory.html">Directory</a></li>
+            <li><a href="https://edsonescalante.github.io/wdd230/commerce/contact.html">Contact</a></li>
+            </li>
+
+        </ul>
+    </nav>
+
+    <main class="applicationmain">
+
+        <h2>Membership Levels</h2>
+        <div class="memberships">
+            <section class="types">
+                <h3>Non-Profit ($100)</h3>
+                <ul>
+                    <li>Support for small businesses</li>
+                    <li>Free networking and social events each month</li>
+                    <li>Listing in the membership directory</li>
+                    <li>Marketing and sponsorship opportunities</li>
+                    <li>Advocacy and business development opportunities</li>
+                </ul>
+            </section>
+            <section class="types">
+                <h3>Bronze ($200)</h3>
+                <ul>
+                    <li>Exclusive registration pricing to annual and seasonal events</li>
+                    <li>Communication and updates on events, programs, and services</li>
+                    <li>Business and customer referrals</li>
+                    <li>Publicity and marketing opportunities</li>
+                </ul>
+            </section>
+            <section class="types">
+                <h3>Silver ($400)</h3>
+                <ul>
+                    <li>Free quarterly business education trainings and workshops</li>
+                    <li>Membership plaques for your place of business</li>
+                    <li>A vote in the Chamber Committee</li>
+                    <li>Discount if you refer a friend</li>
+                </ul>
+            </section>
+            <section class="types">
+                <h3>Gold ($1000)</h3>
+                <ul>
+                    <li>A seat on the Chamber Council</li>
+                    <li>Tickets to a luncheon with the Chamber President</li>
+                    <li>Nationally recognized leadership development and young professionals programs</li>
+                </ul>
+            </section>
+        </div><br>
+
+        <h2 class="stormcentertitle">Application</h2>
+
+        <form method="get" action="confirmation.html">
+
+            <div class="fullform">
+
+                <fieldset>
+
+                    <legend>Contact Information</legend>
+
+                    <label class="top">First Name (Required)<input type="text" name="fname" required></label>
+                    <label class="top">Last Name (Required)<input type="text" name="lname" required></label>
+                    <label class="top">Title<input type="text" name="title"></label>
+                    <label class="top">Email (Required)<input type="email" name="email" required
+                            placeholder="user@email.com" required=""></label>
+                    <label class="top">Phone<input type="tel" name="phone"></label>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <legend>Business Information</legend>
+                    <label class="top">Business Name (Required)<input type="text" name="bname" required></label>
+                    <label class="top">Business Address<input type="text" name="address"></label>
+                    <label class="top">Business Website<input type="url" name="website" placeholder="https://www.yourbusinesswebsite.com"></label>
+                    <label class="top">Business Address<input type="text" name="address"></label>
+                    <label for="additionalInfo" class="top"> Business Description
+                        <textarea name="additionalInfo" id="additionalInfo" cols="40" rows="8"></textarea>
+                    </label>
+
+                    <div>Membership Type</div>
+                    <label class="sbs"><input type="radio" name="mtype" value="nonprofit" /> Non-Profit ($100)
+                    </label>
+                    <label class="sbs"><input type="radio" name="mtype" value="bronze" /> Bronze ($200)
+                    </label>
+                    <label class="sbs"><input type="radio" name="mtype" value="silver" /> Silver ($400)
+                    </label>
+                    </label>
+                    <label class="sbs"><input type="radio" name="mtype" value="gold" /> Gold ($1000)
+                    </label>    
+                </fieldset>
+
+            </div>
+
+            <input type="submit" value="Submit Application" class="submitBtn">
+
+
+        </form>
+
+    </main>
+
+    <footer>
+
+        <p><span id="LastVisited"></span></p>
+        &copy; Copyright <span id="copyrightyear"></span>︱Chamber of Commerce Boise︱Attribution<br>
+
+        <span id="currentDate"></span>
+
+    </footer>
+
+
+</body>
+
+</html>
