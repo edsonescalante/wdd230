@@ -187,7 +187,7 @@ main {
     border: 1px solid black;
 }
 
-.forecast h2{
+.forecast .contactmain h2{
     text-align: center;
     margin: 8px;
 }
@@ -382,4 +382,62 @@ p {
 
 .thankyou a{
     color:brown;
+}
+
+/**CSS FOR CONTACT PAGE**/
+
+.contactmain h2{
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+picture img[data-src] {
+    filter: blur(0.2em);
+
+}
+
+picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+
+}
+
+.container img {
+    width: 100%;
+}
+
+.weatherpic {
+    margin: 1rem 1rem;
+}
+
+.container figcaption {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+.contactboxgrid{ 
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    background-color: #d1e2de;
+    padding: 20px;
+}
+
+.contactboxgrid a{
+    text-decoration: none;
+    color: black;
+}
+
+.boisemap{
+    max-width: 100%;
+}
+
+.ccbcontact{
+    margin-top: 35px;
 }

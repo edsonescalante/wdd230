@@ -9,7 +9,7 @@
 
     /**CSS FOR APPLICATION PAGE**/
 
-	.memberships{
+	.memberships, .container{
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 	}
 
@@ -31,7 +31,5 @@
 		margin: 20px 35px;
 		width: 90%;
 	}
-
-	
 
 }

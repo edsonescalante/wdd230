@@ -42,8 +42,18 @@
         margin: 2rem;
     }
 
-    .adcompanies, .memberships{
+    .adcompanies, .memberships, .contactboxgrid{
         grid-template-columns: 1fr 1fr;
+    }
+
+    /**CSS FOR CONTACT PAGE**/
+
+    .container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .ccbcontact{
+        margin-top: 75px;
     }
 
    
