@@ -441,3 +441,7 @@ picture img {
 .ccbcontact{
     margin-top: 35px;
 }
+
+#feedback{
+    color: red;
+}
