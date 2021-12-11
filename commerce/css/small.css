@@ -181,11 +181,17 @@ main {
     text-align: center;
 }
 
-.adcompanies section{
+.adcompanies section, .homeevents section{
     padding: 0 1.25rem; 
     background-color: #c8d8e4;
     border: 1px solid black;
 }
+
+.homeevents{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 
 .forecast .contactmain h2{
     text-align: center;
@@ -262,6 +268,10 @@ footer {
 
 a{
     color: rgb(252, 157, 157);
+}
+
+.titles{
+    text-align: center;
 }
 
 /**CSS FOR APPLICATION PAGE**/

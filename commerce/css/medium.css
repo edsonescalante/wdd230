@@ -46,6 +46,10 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    .homeevents{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
     /**CSS FOR CONTACT PAGE**/
 
     .container {
@@ -68,6 +72,5 @@
     .listport h3{
         margin-top: 97px;
     }
-
    
 }

@@ -1,6 +1,6 @@
 let dbanner = new Date();
 
-const fri = dbanner.getDay();
+const fri = dbanner.getDay(); 
 const banner = document.querySelector("aside");
 
 if (fri == 5) {
