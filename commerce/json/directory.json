@@ -1,0 +1,59 @@
+{
+  "localbusiness": [{
+      "name": "Albertsons, Inc.",
+      "phone": "(208) 336-5278",
+      "address": "1219 Broadway Ave, Boise, ID 83706",
+      "website": "https://www.albertsons.com",
+      "logo": "images/albertsonslogo.png"
+    },
+    {
+      "name": "Blue Cross of Idaho",
+      "phone": "(208) 387-6683",
+      "address": "3000 E Pine Ave, Boise, ID 83642",
+      "website": "https://bcidaho.com",
+      "logo": "images/bluecrosslogo.png"
+    },
+    {
+      "name": "Treasure Valley YMCA",
+      "phone": "(208) 344-5502",
+      "address": "936 Taylor Ave, Boise, ID 83642",
+      "website": "https://www.ymcatvidaho.org",
+      "logo": "images/ymcalogo.png"
+    },
+    {
+      "name": "Fred Meyer",
+      "phone": "(208) 424-7500",
+      "address": "3527 S Federal Way, Boise, ID 83705",
+      "website": "https://www.fredmeyer.com/",
+      "logo": "images/fredmeyerlogo.png"
+    },
+    {
+      "name": "HP Inc.",
+      "phone": "(208) 999-9999",
+      "address": "11311 W Chinden Blvd, Boise, ID 83714",
+      "website": "https://www.hp.com/us-en/home.html",
+      "logo": "images/hplogo.png"
+    },
+    {
+      "name": "Winco Foods",
+      "phone": "(208) 377-9840",
+      "address": "8200 W Fairview Ave, Boise, ID 83704",
+      "website": "https://www.wincofoods.com",
+      "logo": "images/wincoslogo.png"
+    },
+    {
+      "name": "IdaCorp",
+      "phone": "(866) 384-4277",
+      "address": "1221 W Idaho St, Boise, ID 83702",
+      "website": "https://www.idacorpinc.com/home/default.aspx",
+      "logo": "images/idacorplogo.png"
+    },
+    {
+      "name": "Wells Fargo",
+      "phone": "(208) 519-3300",
+      "address": "877 W Main St Ste 100, Boise, ID 83702",
+      "website": "https://www.wellsfargo.com/",
+      "logo": "images/wellsfargologo.png"
+    }
+  ]
+}

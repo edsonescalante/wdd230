@@ -32,4 +32,18 @@
 		width: 90%;
 	}
 
+	/**CSS FOR DIRECTORY**/
+
+	.grid-layout {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .listport .localbusiness-div {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+	.listport p{
+		margin-top: 82px;
+	}
+
 }

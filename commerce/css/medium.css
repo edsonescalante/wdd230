@@ -40,7 +40,7 @@
     .joinbutton{
         font-size: 1.8rem;
         margin: 2rem;
-    }
+    } 
 
     .adcompanies, .memberships, .contactboxgrid{
         grid-template-columns: 1fr 1fr;
@@ -54,6 +54,19 @@
 
     .ccbcontact{
         margin-top: 75px;
+    }
+
+    /**CSS FOR DIRECTORY**/
+    .grid-layout {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .listport .localbusiness-div {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .listport h3{
+        margin-top: 97px;
     }
 
    

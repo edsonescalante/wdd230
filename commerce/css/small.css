@@ -421,7 +421,7 @@ picture img {
     padding-bottom: 0.2em;
 }
 
-.contactboxgrid{ 
+.contactboxgrid{  
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;
@@ -445,3 +445,76 @@ picture img {
 #feedback{
     color: red;
 }
+
+/**CSS FOR DIRECTORY**/
+
+.listport{
+    display: block;
+}
+
+.businessinfo{
+    text-align: center;
+}
+
+.directorymain h2{
+    text-align: center;
+}
+
+.directorybuttons{
+    text-align: center;
+}
+
+.grid-layout {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr;
+}
+
+.grid-layout .localbusiness-div {
+    border: 1px solid black;
+}
+
+.gridview, .listview, #submit, #send {
+    background-color: #387568;
+    border: 2px solid black;
+    color: white;
+    cursor: pointer;
+}
+
+.gridview, .listview {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.gridview:hover, .listview:hover, #submit:hover, #send:hover { 
+    color: #9c7777;
+}
+
+.listport .localbusiness-div {
+    display: grid;
+    font-size: 1.2rem;
+    grid-template-columns: 1fr;
+    margin-top: 5px;
+}
+
+.listport, .listport .localbusiness-div {
+    padding: 0;
+}
+
+
+.listport img, .listport p, .listport img {
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.localbusiness-div {
+    background-color: #c8d8e4;
+    margin: 0;
+    padding: 1rem;
+}
+
+.businessinfo a{
+    text-decoration: none;
+    color: black;
+}
+
