@@ -528,3 +528,17 @@ picture img {
     color: black;
 }
 
+/**CSS FOR THE CITY PAGE**/
+
+.home-grid h2 {
+    background-color: #c8d8e4;
+    border-top: 5px double;
+    border-bottom: 5px double;
+    text-align: center;
+}
+
+.home-grid img{
+    max-width: 100%;
+}
+    
+

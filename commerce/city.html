@@ -1,12 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Boise Idaho</title>
+    <meta name="description"
+        content="The city of Boise, Idaho. Find our the historical and current demographic information about Boise and its current events.">
+
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+
+    <script defer src="js/lastvisited.js"></script>
+    <script defer src="js/footer.js"></script>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+
 </head>
+
 <body>
+
+    <header>
+
+        <picture>
+
+            <img src="images/chamberlogo.png" alt="animated face with a world">
+
+        </picture>
+
+        <section class="headings">
+
+            <h1>Chamber of Commerce Boise</h1>
+            <div class="m">The new service of the CCB for businesses.</div>
+
+        </section>
+
+    </header>
+
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="https://edsonescalante.github.io/wdd230/commerce/index.html">Home</a></li>
+            <li class="active"><a href="https://edsonescalante.github.io/wdd230/commerce/city.html">Boise</a></li>
+            <li><a href="https://edsonescalante.github.io/wdd230/commerce/join.html">Join the Chamber</a></li>
+            <li><a href="https://edsonescalante.github.io/wdd230/commerce/directory.html">Directory</a></li>
+            <li><a href="https://edsonescalante.github.io/wdd230/commerce/contact.html">Contact</a></li>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <div class="home-grid">
+            
+            <section class="home-paragraph-1">
+            <h2>Peru's DOUBLE package</h2>
+            <p>Would you rather visit the best culinary destination in the world or best tourist attraction? How about BOTH!? You can find both in Peru! 
+              <br><strong>YES, BOTH!</strong></p>
+            </section>
+            <img class="home-right-img" src= "images/owyhee.jpg" alt="Headline1Picture">
+            
+            <section class="home-paragraph-2">
+            <h2>Peru's DOUBLE package</h2>
+            <p class="home-paragraph-2">The World Travel Awards has awarded Peru the World’s Leading Culinary Destination title for the 8th consecutive year! Moreover, Peru won the title of World’s Leading Tourist Attraction title for the 3rd consecutive year! Machu Picchu, Peru’s most popular archeological site, and its more than 400 dishes will make you want to discover the Andean nation that the world has eyes on.</p>
+            </section>
+            <img class="home-left-img" src="images/oldboise.png" alt="Headline2Picture">
+
+            <section class="home-paragraph-3">
+                <h2>Peru's DOUBLE package</h2>
+                <p class="home-paragraph-3">The World Travel Awards has awarded Peru the World’s Leading Culinary Destination title for the 8th consecutive year! Moreover, Peru won the title of World’s Leading Tourist Attraction title for the 3rd consecutive year! Machu Picchu, Peru’s most popular archeological site, and its more than 400 dishes will make you want to discover the Andean nation that the world has eyes on.</p>
+                </section>
+                <img class="oldboise" src="images/restaurants.png" alt="Headline2Picture">
+
+                <section class="home-paragraph-4">
+                    <h2>Peru's DOUBLE package</h2>
+                    <p class="home-paragraph-4">The World Travel Awards has awarded Peru the World’s Leading Culinary Destination title for the 8th consecutive year! Moreover, Peru won the title of World’s Leading Tourist Attraction title for the 3rd consecutive year! Machu Picchu, Peru’s most popular archeological site, and its more than 400 dishes will make you want to discover the Andean nation that the world has eyes on.</p>
+                    </section>
+                    <img class="downtown" src="images/downtown.png" alt="Headline2Picture">    
+
+            <section class="home-paragraph-5">
+              <h2>Come visit us!</h2>
+              <p>We invite you to visit the beautiful country of Peru and what it has to offer to the world! Peru's cuisine and archaeological sites are waiting for you! Send us an email with your questions to receive more information!</p>
+            </section>    
+
+            </div>
+
+            <h2 class="titles">Future Events</h2>
+
+        <div class="homeevents">
+
+            <section>
+
+                <h3>Start-Ups & Suds</h3>
+                <p>Dec 20, 2021</p>
+                <p>3:30 PM - 5:00 PM </p>                
+
+            </section>
+
+            <section>
+
+                <h3>In Search of Civility</h3>
+                <p>Dec 22, 2021</p>
+                <p>12:00 PM - 1:00 PM </p>                 
+
+            </section>
+
+            <section>
+
+                <h3>Executive Allies </h3>
+                <p>Dec 27, 2021</p>
+                <p>12:00 PM - 2:00 PM </p>                 
+
+            </section>
+
+            <section>
+
+                <h3>Intro to Boise</h3>
+                <p>Dec 28, 2021</p>
+                <p>3:30 PM - 6:30 PM </p>                 
+
+            </section>
+        </div>
+
+    </main>
+
+        <!-- <div class="gallery">
+
+            <img class="gallery_pic" src="images/owyhee.jpg" alt="" />
+
+        </div>
+
+    </main>
+
+    <script>
+        let images_array = [
+            "images/owyhee.jpg",
+            "images/downtown.jpg",
+            "images/restaurants.png"
+        ];
+
+        let pic = $(".gallery_pic");
+
+        let i = 0;
+        setInterval(function () {
+            i = (i + 1) % images_array.length;
+            $(document).ready(function() {
+                pic.fadeOut(1000, () => {
+                    pic.attr("src", images_array[i]);
+                    pic.fadeIn(1000);
+                });
+            });
+        })
+    </script> -->
+
     
+
+    <footer>
+
+        <p><span id="LastVisited"></span></p>
+        &copy; Copyright <span id="copyrightyear"></span>︱Chamber of Commerce Boise︱Weather provided by <a
+        href="https://openweathermap.org/">OpenWeatherMap</a><br>
+
+        <span id="currentDate"></span>
+
+    </footer>
+
 </body>
+
 </html>
