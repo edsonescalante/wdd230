@@ -18,7 +18,7 @@ header img {
 
 .headings {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
 }
 
 .headings h1 {
