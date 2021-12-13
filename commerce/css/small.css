@@ -7,7 +7,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Courgette', cursive;
     background-color: #387568;
 }
 
@@ -29,7 +29,6 @@ header img {
 }
 
 .m {
-    font-style: italic;
     letter-spacing: 1pt;
     color: #FFFFFF;
     margin-left: 20px;
@@ -47,7 +46,7 @@ nav button {
 
 nav {
 
-    font-family: 'Allan', cursive;
+    font-family: 'Arvo', cursive;
     max-width: 100%;
     margin: 0 auto;
     background-color: #1f4752;
@@ -113,6 +112,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 5px;
+    font-family: Open Sans;
 }
 
 .label {
@@ -136,6 +136,7 @@ main {
 .stats h2{
     margin: 0;
     text-decoration: underline;
+    font-family: 'Kanit', sans-serif;
 }
 
 .joinbutton {
@@ -165,10 +166,12 @@ main {
     font-family: 'DM Sans', sans-serif;
     margin: 20px 0px;
     padding: 20px;
+    font-family: Open Sans;
 }
 
 .purposebox h2 {
     text-align: center;
+    font-family: 'Kanit', sans-serif;
 }
 
 
@@ -179,6 +182,12 @@ main {
     margin-top: 28px;
     margin-bottom: 20px;
     text-align: center;
+    font-family: Open Sans;
+
+}
+
+.adcompanies h2{
+    font-family: 'Kanit', sans-serif;
 }
 
 .adcompanies section, .homeevents section{
@@ -190,12 +199,14 @@ main {
 .homeevents{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    font-family: Open Sans;
 }
 
 
 .forecast .contactmain h2{
     text-align: center;
     margin: 8px;
+    font-family: 'Kanit', sans-serif;
 }
 
 .flex {
@@ -244,11 +255,15 @@ main {
 
 .contactbox {
     text-align: center;
-    font-family: 'DM Sans', sans-serif;
+    font-family: Open Sans;
     background-color: #c8d8e4;
     border: 1px solid rgb(46, 55, 58);
-    margin: 10px auto;
+    margin-top: 25px;
     padding: 20px;
+}
+
+.contactbox h2{
+    font-family: 'Kanit', sans-serif;
 }
 
 .contactbox a{
@@ -272,6 +287,9 @@ a{
 
 .titles{
     text-align: center;
+    margin-bottom: 1px;
+    font-family: 'Kanit', sans-serif;
+
 }
 
 /**CSS FOR APPLICATION PAGE**/
@@ -283,6 +301,8 @@ a{
 
 .applicationmain h2, h3{
     text-align: center;
+    font-family: 'Kanit', sans-serif;
+
 }
 
 .types{
@@ -302,16 +322,15 @@ a{
 
 .memberships ul li {
     text-align: left;
+    font-family: Open Sans;
+
 }
 
 .fullform{
         background-color: #d1e2de;
         padding: 0.1em 1em;
         border-radius: 10px;
-}
-
-.stormcentertitle {
-    text-align: center;
+        font-family: Open Sans;
 }
 
 form fieldset {
@@ -398,6 +417,7 @@ p {
 
 .contactmain h2{
     text-align: center;
+    font-family: 'Kanit', sans-serif;
 }
 
 .container {
@@ -426,7 +446,7 @@ picture img {
 
 .container figcaption {
     text-align: center;
-    font-weight: bold;
+    font-family: 'Kanit', sans-serif;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
 }
@@ -434,6 +454,7 @@ picture img {
 .contactboxgrid{  
     display: grid;
     grid-template-columns: 1fr;
+    font-family: Open Sans;
     text-align: center;
     background-color: #d1e2de;
     padding: 20px;
@@ -464,10 +485,12 @@ picture img {
 
 .businessinfo{
     text-align: center;
+    font-family: Open Sans;
 }
 
 .directorymain h2{
     text-align: center;
+    font-family: 'Kanit', sans-serif;
 }
 
 .directorybuttons{
@@ -476,8 +499,8 @@ picture img {
 
 .grid-layout {
     display: grid;
-    grid-gap: 1rem;
     grid-template-columns: 1fr;
+    grid-gap: 1rem;
 }
 
 .grid-layout .localbusiness-div {
@@ -486,9 +509,9 @@ picture img {
 
 .gridview, .listview, #submit, #send {
     background-color: #387568;
-    border: 2px solid black;
     color: white;
     cursor: pointer;
+    border: 2px solid black;
 }
 
 .gridview, .listview {
@@ -502,9 +525,9 @@ picture img {
 
 .listport .localbusiness-div {
     display: grid;
-    font-size: 1.2rem;
     grid-template-columns: 1fr;
     margin-top: 5px;
+    font-size: 1.2rem;
 }
 
 .listport, .listport .localbusiness-div {
@@ -513,14 +536,14 @@ picture img {
 
 
 .listport img, .listport p, .listport img {
-    margin: 0 auto;
     padding: 1rem;
+    margin: 0 auto;
 }
 
 .localbusiness-div {
-    background-color: #c8d8e4;
     margin: 0;
     padding: 1rem;
+    background-color: #c8d8e4;
 }
 
 .businessinfo a{
@@ -535,6 +558,11 @@ picture img {
     border-top: 5px double;
     border-bottom: 5px double;
     text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+.home-grid p{
+    font-family: Open Sans;
 }
 
 .home-grid img{

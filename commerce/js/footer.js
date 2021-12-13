@@ -11,6 +11,8 @@ const options = {
 
 document.getElementById("currentDate").textContent = dcurrent.toLocaleDateString('en-UK', options);
 
+
+//CODE FOR NAVIGATION MENU
 function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("hide");
 }
