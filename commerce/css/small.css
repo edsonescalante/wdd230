@@ -140,7 +140,6 @@ main {
 }
 
 .joinbutton {
-    font-size: 1.2rem;
     position: absolute;
     bottom: 1px;
     right: 1px;
@@ -158,6 +157,8 @@ main {
 .joinbutton a {
     text-decoration: none;
     color: white;
+    font-weight: bold;
+    
 }
 
 .purposebox {
@@ -283,6 +284,7 @@ footer {
 
 a{
     color: rgb(252, 157, 157);
+    font-weight: bold;
 }
 
 .titles{
