@@ -144,7 +144,7 @@ main {
     bottom: 1px;
     right: 1px;
     padding: 0.4em 1em;
-    border: 4px solid rgb(51, 253, 0);
+    border: 4px solid #B51717;
     border-radius: 0.25em;
     margin: 1rem;
     
@@ -156,7 +156,7 @@ main {
 
 .joinbutton a {
     text-decoration: none;
-    color: rgb(51, 253, 0);
+    color: #B51717;
     font-weight: bold;
     
 }
@@ -283,7 +283,7 @@ footer {
 }
 
 a{
-    color: rgb(231, 240, 154);
+    color: #FFFFFF;
     font-weight: bold;
 }
 
